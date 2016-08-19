@@ -1,0 +1,350 @@
+    <30 82 04 98>
+   0 1176: SEQUENCE {
+    <30 82 03 80>
+   4  896:   SEQUENCE {
+    <A0 03>
+   8    3:     [0] {
+    <02 01>
+  10    1:       INTEGER 2
+         :       }
+    <02 09>
+  13    9:     INTEGER 00 87 4A 75 BE 91 66 D8 3D
+    <30 0D>
+  24   13:     SEQUENCE {
+    <06 09>
+  26    9:       OBJECT IDENTIFIER sha1WithRSAEncryption (1 2 840 113549 1 1 5)
+    <05 00>
+  37    0:       NULL
+         :       }
+    <30 81 8E>
+  39  142:     SEQUENCE {
+    <31 0B>
+  42   11:       SET {
+    <30 09>
+  44    9:         SEQUENCE {
+    <06 03>
+  46    3:           OBJECT IDENTIFIER countryName (2 5 4 6)
+    <13 02>
+  51    2:           PrintableString 'US'
+         :           }
+         :         }
+    <31 0F>
+  55   15:       SET {
+    <30 0D>
+  57   13:         SEQUENCE {
+    <06 03>
+  59    3:           OBJECT IDENTIFIER stateOrProvinceName (2 5 4 8)
+    <13 06>
+  64    6:           PrintableString 'Oregon'
+         :           }
+         :         }
+    <31 11>
+  72   17:       SET {
+    <30 0F>
+  74   15:         SEQUENCE {
+    <06 03>
+  76    3:           OBJECT IDENTIFIER localityName (2 5 4 7)
+    <13 08>
+  81    8:           PrintableString 'Portland'
+         :           }
+         :         }
+    <31 0E>
+  91   14:       SET {
+    <30 0C>
+  93   12:         SEQUENCE {
+    <06 03>
+  95    3:           OBJECT IDENTIFIER organizationName (2 5 4 10)
+    <13 05>
+ 100    5:           PrintableString 'yaSSL'
+         :           }
+         :         }
+    <31 14>
+ 107   20:       SET {
+    <30 12>
+ 109   18:         SEQUENCE {
+    <06 03>
+ 111    3:           OBJECT IDENTIFIER organizationalUnitName (2 5 4 11)
+    <13 0B>
+ 116   11:           PrintableString 'Programming'
+         :           }
+         :         }
+    <31 16>
+ 129   22:       SET {
+    <30 14>
+ 131   20:         SEQUENCE {
+    <06 03>
+ 133    3:           OBJECT IDENTIFIER commonName (2 5 4 3)
+    <13 0D>
+ 138   13:           PrintableString 'www.yassl.com'
+         :           }
+         :         }
+    <31 1D>
+ 153   29:       SET {
+    <30 1B>
+ 155   27:         SEQUENCE {
+    <06 09>
+ 157    9:           OBJECT IDENTIFIER emailAddress (1 2 840 113549 1 9 1)
+    <16 0E>
+ 168   14:           IA5String 'info@yassl.com'
+         :           }
+         :         }
+         :       }
+    <30 1E>
+ 184   30:     SEQUENCE {
+    <17 0D>
+ 186   13:       UTCTime 24/10/2011 18:21:55 GMT
+    <17 0D>
+ 201   13:       UTCTime 20/07/2014 18:21:55 GMT
+         :       }
+    <30 81 8E>
+ 216  142:     SEQUENCE {
+    <31 0B>
+ 219   11:       SET {
+    <30 09>
+ 221    9:         SEQUENCE {
+    <06 03>
+ 223    3:           OBJECT IDENTIFIER countryName (2 5 4 6)
+    <13 02>
+ 228    2:           PrintableString 'US'
+         :           }
+         :         }
+    <31 0F>
+ 232   15:       SET {
+    <30 0D>
+ 234   13:         SEQUENCE {
+    <06 03>
+ 236    3:           OBJECT IDENTIFIER stateOrProvinceName (2 5 4 8)
+    <13 06>
+ 241    6:           PrintableString 'Oregon'
+         :           }
+         :         }
+    <31 11>
+ 249   17:       SET {
+    <30 0F>
+ 251   15:         SEQUENCE {
+    <06 03>
+ 253    3:           OBJECT IDENTIFIER localityName (2 5 4 7)
+    <13 08>
+ 258    8:           PrintableString 'Portland'
+         :           }
+         :         }
+    <31 0E>
+ 268   14:       SET {
+    <30 0C>
+ 270   12:         SEQUENCE {
+    <06 03>
+ 272    3:           OBJECT IDENTIFIER organizationName (2 5 4 10)
+    <13 05>
+ 277    5:           PrintableString 'yaSSL'
+         :           }
+         :         }
+    <31 14>
+ 284   20:       SET {
+    <30 12>
+ 286   18:         SEQUENCE {
+    <06 03>
+ 288    3:           OBJECT IDENTIFIER organizationalUnitName (2 5 4 11)
+    <13 0B>
+ 293   11:           PrintableString 'Programming'
+         :           }
+         :         }
+    <31 16>
+ 306   22:       SET {
+    <30 14>
+ 308   20:         SEQUENCE {
+    <06 03>
+ 310    3:           OBJECT IDENTIFIER commonName (2 5 4 3)
+    <13 0D>
+ 315   13:           PrintableString 'www.yassl.com'
+         :           }
+         :         }
+    <31 1D>
+ 330   29:       SET {
+    <30 1B>
+ 332   27:         SEQUENCE {
+    <06 09>
+ 334    9:           OBJECT IDENTIFIER emailAddress (1 2 840 113549 1 9 1)
+    <16 0E>
+ 345   14:           IA5String 'info@yassl.com'
+         :           }
+         :         }
+         :       }
+    <30 82 01 22>
+ 361  290:     SEQUENCE {
+    <30 0D>
+ 365   13:       SEQUENCE {
+    <06 09>
+ 367    9:         OBJECT IDENTIFIER rsaEncryption (1 2 840 113549 1 1 1)
+    <05 00>
+ 378    0:         NULL
+         :         }
+    <03 82 01 0F>
+ 380  271:       BIT STRING, encapsulates {
+    <30 82 01 0A>
+ 385  266:         SEQUENCE {
+    <02 82 01 01>
+ 389  257:           INTEGER
+         :             00 C3 03 D1 2B FE 39 A4 32 45 3B 53 C8 84 2B 2A
+         :             7C 74 9A BD AA 2A 52 07 47 D6 A6 36 B2 07 32 8E
+         :             D0 BA 69 7B C6 C3 44 9E D4 81 48 FD 2D 68 A2 8B
+         :             67 BB A1 75 C8 36 2C 4A D2 1B F7 8B BA CF 0D F9
+         :             EF EC F1 81 1E 7B 9B 03 47 9A BF 65 CC 7F 65 24
+         :             69 A6 E8 14 89 5B E4 34 F7 C5 B0 14 93 F5 67 7B
+         :             3A 7A 78 E1 01 56 56 91 A6 13 42 8D D2 3C 40 9C
+         :             4C EF D1 86 DF 37 51 1B 0C A1 3B F5 F1 A3 4A 35
+         :                     [ Another 129 bytes skipped ]
+    <02 03>
+ 650    3:           INTEGER 65537
+         :           }
+         :         }
+         :       }
+    <A3 81 F6>
+ 655  246:     [3] {
+    <30 81 F3>
+ 658  243:       SEQUENCE {
+    <30 1D>
+ 661   29:         SEQUENCE {
+    <06 03>
+ 663    3:           OBJECT IDENTIFIER subjectKeyIdentifier (2 5 29 14)
+    <04 16>
+ 668   22:           OCTET STRING, encapsulates {
+    <04 14>
+ 670   20:             OCTET STRING
+         :               33 D8 45 66 D7 68 87 18 7E 54 0D 70 27 91 C7 26
+         :               D7 85 65 C0
+         :             }
+         :           }
+    <30 81 C3>
+ 692  195:         SEQUENCE {
+    <06 03>
+ 695    3:           OBJECT IDENTIFIER authorityKeyIdentifier (2 5 29 35)
+    <04 81 BB>
+ 700  187:           OCTET STRING, encapsulates {
+    <30 81 B8>
+ 703  184:             SEQUENCE {
+    <80 14>
+ 706   20:               [0]
+         :                 33 D8 45 66 D7 68 87 18 7E 54 0D 70 27 91 C7 26
+         :                 D7 85 65 C0
+    <A1 81 94>
+ 728  148:               [1] {
+    <A4 81 91>
+ 731  145:                 [4] {
+    <30 81 8E>
+ 734  142:                   SEQUENCE {
+    <31 0B>
+ 737   11:                     SET {
+    <30 09>
+ 739    9:                       SEQUENCE {
+    <06 03>
+ 741    3:                         OBJECT IDENTIFIER countryName (2 5 4 6)
+    <13 02>
+ 746    2:                         PrintableString 'US'
+         :                         }
+         :                       }
+    <31 0F>
+ 750   15:                     SET {
+    <30 0D>
+ 752   13:                       SEQUENCE {
+    <06 03>
+ 754    3:                         OBJECT IDENTIFIER
+         :                           stateOrProvinceName (2 5 4 8)
+    <13 06>
+ 759    6:                         PrintableString 'Oregon'
+         :                         }
+         :                       }
+    <31 11>
+ 767   17:                     SET {
+    <30 0F>
+ 769   15:                       SEQUENCE {
+    <06 03>
+ 771    3:                         OBJECT IDENTIFIER localityName (2 5 4 7)
+    <13 08>
+ 776    8:                         PrintableString 'Portland'
+         :                         }
+         :                       }
+    <31 0E>
+ 786   14:                     SET {
+    <30 0C>
+ 788   12:                       SEQUENCE {
+    <06 03>
+ 790    3:                         OBJECT IDENTIFIER organizationName (2 5 4 10)
+    <13 05>
+ 795    5:                         PrintableString 'yaSSL'
+         :                         }
+         :                       }
+    <31 14>
+ 802   20:                     SET {
+    <30 12>
+ 804   18:                       SEQUENCE {
+    <06 03>
+ 806    3:                         OBJECT IDENTIFIER
+         :                           organizationalUnitName (2 5 4 11)
+    <13 0B>
+ 811   11:                         PrintableString 'Programming'
+         :                         }
+         :                       }
+    <31 16>
+ 824   22:                     SET {
+    <30 14>
+ 826   20:                       SEQUENCE {
+    <06 03>
+ 828    3:                         OBJECT IDENTIFIER commonName (2 5 4 3)
+    <13 0D>
+ 833   13:                         PrintableString 'www.yassl.com'
+         :                         }
+         :                       }
+    <31 1D>
+ 848   29:                     SET {
+    <30 1B>
+ 850   27:                       SEQUENCE {
+    <06 09>
+ 852    9:                         OBJECT IDENTIFIER
+         :                           emailAddress (1 2 840 113549 1 9 1)
+    <16 0E>
+ 863   14:                         IA5String 'info@yassl.com'
+         :                         }
+         :                       }
+         :                     }
+         :                   }
+         :                 }
+    <82 09>
+ 879    9:               [2] 00 87 4A 75 BE 91 66 D8 3D
+         :               }
+         :             }
+         :           }
+    <30 0C>
+ 890   12:         SEQUENCE {
+    <06 03>
+ 892    3:           OBJECT IDENTIFIER basicConstraints (2 5 29 19)
+    <04 05>
+ 897    5:           OCTET STRING, encapsulates {
+    <30 03>
+ 899    3:             SEQUENCE {
+    <01 01>
+ 901    1:               BOOLEAN TRUE
+         :               }
+         :             }
+         :           }
+         :         }
+         :       }
+         :     }
+    <30 0D>
+ 904   13:   SEQUENCE {
+    <06 09>
+ 906    9:     OBJECT IDENTIFIER sha1WithRSAEncryption (1 2 840 113549 1 1 5)
+    <05 00>
+ 917    0:     NULL
+         :     }
+    <03 82 01 01>
+ 919  257:   BIT STRING
+         :     1C 7C 42 81 29 9E 21 CF D0 D8 C1 54 6F CC AE 14
+         :     09 38 FF 68 98 9A 95 53 76 18 7B E6 30 76 EC 28
+         :     0D 75 A7 DE E0 CD 8E D5 55 23 6A 47 2B 4E 8D FC
+         :     7D 06 A3 D8 0F AD 5E D6 04 C9 00 33 FB 77 27 D3
+         :     B5 03 B3 7B 21 74 31 0B 4A AF 2D 1A B3 93 8E CC
+         :     F3 5F 3D 90 3F CC E3 55 19 91 7B 78 24 2E 4A 09
+         :     BB 18 4E 61 2D 9C C6 0A A0 34 91 88 70 6B 3B 48
+         :     47 BC 79 94 A2 A0 4D 32 47 54 C2 A3 DC 2E D2 51
+         :             [ Another 128 bytes skipped ]
+         :   }
