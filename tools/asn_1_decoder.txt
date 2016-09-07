@@ -55,8 +55,8 @@ commonName
 30 = SEQUENCE  with constructed bit set.
 31 =  SET OF
 The three AttributeValueAssertion values are SEQUENCE values, so their DER encodings follow the constructed, definite-length method:
-30 09
-   06 03 55 04 06     06=OBJECT IDENTIFIER 3 byte long "55 04 06" (countryName)
+30 09  = SEQUENCE  with constructed bit set
+   06 03 55 04 06     06=OBJECT IDENTIFIER 3 bytes long "55 04 06" (countryName)
    13 02 55 53        13=PrintableString 2 bytes long "55 53" US
 countryName = "US"
 30 1b
